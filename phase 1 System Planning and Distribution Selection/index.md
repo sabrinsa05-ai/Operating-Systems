@@ -1,4 +1,4 @@
-  ## Week 1 System Planning and Distribution Selection
+  ## Phase 1: System Planning and Distribution Selection
 
 ## System Architecture
 ![Architecture Diagram](images/week1/architecture.png)
