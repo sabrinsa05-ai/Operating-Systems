@@ -1,4 +1,4 @@
-# Week 3 – Application Selection for Performance Testing
+# Phase 3: Application Selection for Performance Testing
 
 [← Home](index.md) | [Week 2 ←](week2.md) | [Week 4 →](week4.md)
 
