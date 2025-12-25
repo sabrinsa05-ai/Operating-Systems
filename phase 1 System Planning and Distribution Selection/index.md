@@ -1,34 +1,53 @@
   ## Phase 1: System Planning and Distribution Selection
 
-## System Architecture
-The project linked to this phase is the architecture diagram.
+System Architecture
 
 This project uses a dual-system architecture consisting of a headless Linux server
-administered remotely via SSH from a workstation.
+and a separate workstation system. The server is administered remotely via SSH,
+enforcing command-line proficiency and reflecting professional system
+administration practices.
 
-## Server Distribution Selection
-Ubuntu Server 22.04 LTS was selected due to its long-term support, stability, and
-built-in AppArmor security framework.
+The workstation is used to initiate SSH connections, manage configuration files,
+and perform monitoring tasks, while the server runs without a graphical interface.
+
+## Distribution Selection Justification
+
+Ubuntu Server LTS was selected as the server operating system due to its long-term
+support, stability, and extensive documentation. Ubuntu includes built-in security
+frameworks such as AppArmor and supports regular security updates, making it well
+suited for secure server deployments.
+
+Alternative distributions such as Debian and CentOS were considered. Debian offers
+high stability but slower update cycles, while CentOS requires more complex
+configuration following recent changes to its release model. Ubuntu Server
+provided the best balance between stability, security, and usability.
 
 ## Workstation Configuration
-The workstation is the host macOS system using an SSH client to access the server.
+
+The workstation system is a macOS host machine using an SSH client to remotely
+administer the server. This approach avoids unnecessary virtual machines while
+meeting the requirement for remote command-line administration.
 
 ## Network Configuration
-The VirtualBox network uses NAT for initial connectivity with IP addressing assigned
-via DHCP.
+
+The server operates within a virtualised network using NAT or shared networking.
+IP addressing is assigned dynamically via DHCP, allowing the workstation to
+establish SSH connectivity without exposing the server to external networks.
 
 ## System Specifications (CLI Evidence)
 
-### uname -a
-![uname output](images/week1/architecture-diagram.drawio (1).png)
+System information was collected using standard Linux command-line tools to
+document the server environment.
 
-The uname command displays kernel and system architecture information.
-
-### free -h
-![free output](images/week1/free-output.png)
-
-This command shows memory availability in human-readable format.
+- `uname -a` was used to identify kernel and system architecture.
+- `free -h` was used to examine memory availability.
+- `df -h` was used to inspect disk usage.
+- `ip addr` was used to confirm network configuration.
+- `lsb_release -a` was used to identify the Linux distribution and version.
 
 ## Reflection
-This week focused on planning and system setup. Learning to deploy a headless server
-reinforced the importance of command-line proficiency.
+
+This week focused on planning and system design rather than implementation.
+Establishing a clear architecture and justifying technical decisions provided a
+strong foundation for later security configuration and performance testing.
+
