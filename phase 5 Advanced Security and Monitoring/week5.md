@@ -1,14 +1,14 @@
 # Phase 5: Advanced Security and Monitoring Infrastructure
 
-[← Home](index.md) | [Week 4 ←](week4.md) | [Week 6 →](week6.md)
+[← Home](index.md) | [Phase 4 ←](week4.md) | [Week 6 →](week6.md)
 
 ---
 
 ## Overview
 This week focused on implementing advanced security controls and developing monitoring
 capabilities for the Linux server. Building on the foundational security configuration
-from Week 4, additional mechanisms were deployed to strengthen access control, intrusion
-detection, and system visibility.
+from Phase 4, additional mechanisms were deployed to strengthen access control, intrusion
+detection and system visibility.
 
 All configuration and verification tasks were performed remotely via SSH in compliance
 with the administrative constraints of the assessment.
