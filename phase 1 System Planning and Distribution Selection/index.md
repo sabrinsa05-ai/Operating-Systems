@@ -1,7 +1,7 @@
   ## Phase 1: System Planning and Distribution Selection
 
 ## System Architecture
-![Architecture Diagram](images/week1/architecture.png)
+![Architecture Diagram](architecture-diagram.drawio (1).png)
 
 This project uses a dual-system architecture consisting of a headless Linux server
 administered remotely via SSH from a workstation.
