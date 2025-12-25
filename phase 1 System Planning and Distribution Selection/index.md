@@ -1,7 +1,7 @@
   ## Phase 1: System Planning and Distribution Selection
 
 ## System Architecture
-![Architecture Diagram](images.architecture-diagram.drawio (1).png)
+The project linked to this phase is the architecture diagram.
 
 This project uses a dual-system architecture consisting of a headless Linux server
 administered remotely via SSH from a workstation.
@@ -20,7 +20,7 @@ via DHCP.
 ## System Specifications (CLI Evidence)
 
 ### uname -a
-![uname output](images/week1/uname-output.png)
+![uname output](images/week1/architecture-diagram.drawio (1).png)
 
 The uname command displays kernel and system architecture information.
 
