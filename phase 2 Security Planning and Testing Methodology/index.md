@@ -1,6 +1,6 @@
 # Phase 2: Security Planning and Testing Methodology
 
-[← Home](index.md) | [Week 1 ←](week01-planning/index.md) | [Week 3 →](week3.md)
+
 
 ---
 
