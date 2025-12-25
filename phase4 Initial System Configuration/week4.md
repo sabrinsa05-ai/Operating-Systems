@@ -1,6 +1,6 @@
 # Phase 4: Initial System Configuration & Security Implementation
 
-[← Home](index.md) | [Week 3 ←](week3.md) | [Week 5 →](week5.md)
+[← Home](index.md) | [Phase 3 3 ←](week3.md) | [Phase 5 →](week5.md)
 
 ---
 
